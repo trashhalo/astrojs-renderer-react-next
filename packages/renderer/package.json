@@ -1,0 +1,26 @@
+{
+  "name": "astrojs-renderer-react-next",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "uvu test -i fixtures -i test-utils.js",
+    "postinstall": "patch-package"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./server": "./server.js",
+    "./package.json": "./package.json"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.14.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-ssr-prepass": "^1.4.0"
+  },
+  "peerDependencies": {
+    "astro": "^0.19.0"
+  }
+}

@@ -1,0 +1,16 @@
+diff --git a/node_modules/astro/package.json b/node_modules/astro/package.json
+index aced2e9..db73341 100644
+--- a/node_modules/astro/package.json
++++ b/node_modules/astro/package.json
+@@ -19,7 +19,10 @@
+     "./components/*": "./components/*",
+     "./runtime/svelte": "./dist/frontend/runtime/svelte.js",
+     "./internal/*": "./dist/internal/*",
+-    "./dist/internal/*": "./dist/internal/*"
++    "./dist/internal/*": "./dist/internal/*",
++    "./build": "./dist/build.js",
++    "./runtime": "./dist/runtime.js",
++    "./config": "./dist/config.js"
+   },
+   "imports": {
+     "#astro/compiler": "./dist/compiler/index.js",

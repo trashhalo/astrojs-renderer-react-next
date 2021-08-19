@@ -1,0 +1,15 @@
+{
+  "name": "test",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "test": "uvu -i fixtures -i test-utils.js"
+  },
+  "devDependencies": {
+    "astrojs-renderer-react-next": "0.0.1",
+    "del": "^6.0.0",
+    "execa": "^5.0.0",
+    "patch-package": "^6.4.7",
+    "uvu": "^0.5.1"
+  }
+}
