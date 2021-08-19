@@ -10,4 +10,6 @@ In your react component do the suspense backfill. You can see an example of one 
 
 Add astrojs-renderer-react-next to your package.json
 
-I'd love to add a hook to make this all easier.
+---
+
+I'd love to add a hook to make this all easier. PR WELCOME!!
