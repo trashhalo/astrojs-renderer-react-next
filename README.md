@@ -8,4 +8,6 @@ In your astro.config.mjs replace renderer-react with astrojs-renderer-react-next
 
 In your react component do the suspense backfill. You can see an example of one in [the test case](./packages/test/fixtures/react-component/src/components/Async.jsx).
 
+Add astrojs-renderer-react-next to your package.json
+
 I'd love to add a hook to make this all easier.
